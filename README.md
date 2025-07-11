@@ -12,6 +12,7 @@ The Khmer OCR Tool addresses the challenge of recognizing Khmer text, which is t
 - **Text Recognition**: Employs TrOCR (Transformer-based OCR) to recognize text from detected regions
 - **Dual Language Support**: Optimized for both Khmer and English text
 - **Synthetic Data Generation**: Creates training data from text using various fonts
+- **Enhanced Font Support**: Includes a wide range of Khmer fonts from Google Fonts and khmerfonts.info
 - **Data Augmentation**: Applies transformations to improve model robustness
 - **End-to-End Pipeline**: Combines detection and recognition in a seamless workflow
 - **Streamlit Interface**: Provides an easy-to-use web interface for OCR
@@ -22,6 +23,15 @@ The project uses multiple data sources:
 1. Khmer dictionary (44k entries): https://huggingface.co/datasets/seanghay/khmer-dictionary-44k
 2. Khmer fonts info previews: https://huggingface.co/datasets/seanghay/khmerfonts-info-previews
 3. Khmer Hanuman dataset (100k entries): https://huggingface.co/datasets/seanghay/khmer-hanuman-100k
+
+## Font Sources
+
+For synthetic data generation, the project uses various Khmer and English fonts from:
+1. Google Fonts Khmer collection: https://fonts.google.com/?subset=khmer
+2. KhmerFonts.info: https://www.khmerfonts.info/
+3. GitHub repositories:
+   - https://github.com/danhhong/khmer-fonts
+   - https://github.com/danhhong/Siemreap
 
 ## Models
 
